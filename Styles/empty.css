@@ -1,0 +1,13 @@
+.wrap{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    transform: translate(-50%, -50%);
+}
+.menu{
+    position: right;
+    width:50px;
+    height: 10px;
+    background:#000;
+    margin: 6px 0;
+}

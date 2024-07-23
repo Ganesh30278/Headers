@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header-magazine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgreen;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+.header-magazine .logo img {
+    max-height: 50px;
+}
+.header-magazine .nav {
+    display: flex;
+    gap: 20px;
+}
+.header-magazine .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.header-magazine .nav a:hover {
+    color: white;
+}
+.round{
+    border-radius: 50%;
+}
